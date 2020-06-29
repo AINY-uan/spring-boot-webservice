@@ -14,8 +14,9 @@ import javax.jws.WebService;
  * </p>
  */
 @Slf4j
-@WebService(targetNamespace = "http://impl.service.webservice.ainy.org",
+@WebService(
         serviceName = "demoService",
+        targetNamespace = "http://impl.service.webservice.ainy.org",
         endpointInterface = "org.ainy.webservice.service.DemoService")
 public class DemoServiceImpl implements DemoService {
 
